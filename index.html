@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Validation Practice</title>
+    </head>
+    <body>
+        <h1>Validation Attributes</h1>
+        <form>
+            <label>Prefix:::</label>
+            <input type="text" required>
+            <br><br> 
+            <label>Name:::</label>
+            <input type="text" required placeholder="First Name">
+            <input type="text" required placeholder="Last Name" >
+            <br><br>
+            <br><br>
+            <label>Preferred Pronouns</label>
+            <input type="text">
+            <br><br>
+            <label>Email:::</label>
+            <input type="email" required placeholder="enter email">
+            <br><br>
+            <label>Cell Phone</label>
+            <input type="number" required placeholder="please enter 10 digit number">
+            <br><br>
+            <label >Work Phone</label>
+            <input type="number" required placeholder="please enter 10 digit number">
+            <br><br>
+            <label>Job Title</label>
+            <input type="text">
+            <br><br>
+            <label>Company1</label>
+            <input type="text" required value="GreetLabs">
+            <br><br>
+            <label>Company2</label>
+            <input type="text"  required value="TCS" readonly><br><br>
+            <label>Company3</label>
+            <input type="text" required value="IBM" disabled>
+            <br><br>
+            <label>Full Business Adress</label>
+            <br>
+            <textarea cols="30" rows="2 "></textarea><br><br>
+            <label>Company Website</label>
+            <br>
+            <input type="url">
+            <br><br>
+            <label>Sponsorship level</label>
+            <br>
+            <input type="radio" name="1">Gold
+            <br>
+            <input type="radio" name="1">Diamond
+            <br>
+            <input type="radio" name="1">Platinum
+            <br><br>
+            <label>Additional Guests(name,email)</label><br>
+            <input type="text">
+            <br><br>>
+            <label>Company Description</label><br>
+            <textarea cols="30" rows="3"></textarea>
+            <br><br>
+            <label>Company Facebook Handler</label>
+            <br>
+            <input type="url">
+            <br><br>
+            <label>Company Twitter Handler</label><br>
+            <input type="url">
+            <br><br>
+            <label>Company LinkedIn Handler</label><br>
+            <input type="url">
+            <br><br>
+            <label>Salary</label>
+            <input type="number" min="35000" max="100000" required>
+            <br><br>
+            <label>Number</label>
+            <input type="text" required pattern="[6-9][0-9]{9}">
+            <br><br>
+            
+            <input type="submit" value="Enter">
+            <input type="reset" value="cancel">
+
+        </form>
+    </body>
+</html>
